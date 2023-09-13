@@ -1,0 +1,75 @@
+body {
+    margin: 15px;
+    background-color: #303030;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* para deslocar a imagem de lugar, deve-se deslocar com text-align a DIV em que esta inserida, não a imagem em si. */
+#header img {
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+#form input {
+    padding-left: 15px;
+    border: 0px;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0px 3px 3px 0px #30303079;
+
+}
+
+#calcular {
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#calcular:hover {
+    transform: translateY(-3px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 3px 3px 0px #303030ab;
+    background-color: rgb(3, 3, 173);
+}
+
+#resetar {
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#resetar:hover {
+    transform: translateY(-3px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 3px 3px 0px #303030ab;
+    background-color: rgb(3, 3, 173);
+}
+
+
+
+
